@@ -1,0 +1,112 @@
+body {
+    background: #222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Section */
+.js-projects-section {
+    
+    margin-top: 5px;
+}
+
+/* Container */
+.js-container {
+    max-width: 750px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.js-title {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.js-subtitle {
+    color: #ccc;
+    margin-bottom: 50px;
+}
+
+/* Grid */
+.js-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* Individual Card */
+.js-card {
+    background: #333;
+    border-radius: 12px;
+    padding: 25px;
+    border-left: 4px solid #bac964;
+    transition: 0.3s;
+}
+
+.js-card:hover {
+    transform: translateY(-5px);
+    background: #333;
+}
+
+/* Icon box */
+.js-icon {
+    font-size: 60px;
+    color: #bac964;
+    margin-bottom: 15px;
+}
+
+/* Project Title */
+.js-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Project Description */
+.js-card p {
+    font-size: 15px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.js-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Button Styles */
+.live-btn, .github-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Live Button */
+.live-btn {
+    background: #bac964;
+    color: #222;
+}
+
+.live-btn:hover {
+    background: #bac964;
+}
+
+/* GitHub Button */
+.github-btn {
+    background: #6c757d;
+}
+
+.github-btn:hover {
+    background: #555b60;
+}
